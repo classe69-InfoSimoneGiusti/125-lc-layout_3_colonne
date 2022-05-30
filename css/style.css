@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.container-flex nav {
+    min-height: 300px;
+    width: 20%;
+}
+
+.container-flex aside {
+    min-height: 600px;
+    width: 20%;
+}
+
+.container-flex main {
+    min-height: 400px;
+    width: 58%;
+}
+
+footer {
+    min-height: 150px;
+    margin-top: 15px;
+}
+
+
+/* Inizio regole di debug layout */ 
+
+.debug header {
+    background-color: goldenrod;
+    height: 150px;
+}
+
+.debug .container-flex nav {
+    background-color: violet;
+}
+
+.debug .container-flex aside {
+    background-color: cyan;
+}
+
+.debug .container-flex main {
+    background-color: purple;
+}
+
+.debug footer {
+    background-color: lightblue;
+}
+
+/* Fine regole di debug layout */ 
+
+
+
+/* regole per i contenuti */
+nav, main {
+    padding: 15px;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+
+main section {
+    border: dotted 3px #fff;
+    padding: 15px;
+    margin: 15px 0px;
+}
+
+main section h2 {
+    color: #fff;
+}
+
+main section article {
+    background-color: grey;
+    margin: 15px 0px;
+    padding: 15px;
+}
+
+nav ul li {
+    background-color: red;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+aside img {
+    width: 100%;
+}
